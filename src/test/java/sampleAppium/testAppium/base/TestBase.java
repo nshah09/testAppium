@@ -35,7 +35,7 @@ public class TestBase {
 			driver = initFirefoxDriver(appURL);
 		}
 	}*/
-
+	//@BeforeClass
 	private void setDriver() throws MalformedURLException
 	{
 		DesiredCapabilities capabilities = new DesiredCapabilities();
