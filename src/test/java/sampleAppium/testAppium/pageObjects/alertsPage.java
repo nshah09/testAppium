@@ -6,8 +6,8 @@ import org.openqa.selenium.WebElement;
 
 public class alertsPage {
 	protected WebDriver driver;
-	//private By alertslink= By.name("Alerts");
-	private By alertslink= By.xpath("//XCUIElementTypeButton[1]");
+	private By alertslink= By.name("Alerts");
+	//private By alertslink= By.xpath("//XCUIElementTypeButton[1]");
 	private By backlink= By.name("Back");
 	public alertsPage(WebDriver driver) {
 		this.driver = driver;
