@@ -42,9 +42,10 @@ public class TestBase {
 		capabilities.setCapability("platformVersion", "10.2"); //mandatory
 		capabilities.setCapability("deviceName","iPhone 7");//mandatory
 		capabilities.setCapability("platformName","iOS");//mandatory
+		capabilities.setCapability("applicationName", "Integrated App");
 	   capabilities.setCapability("app", "/Users/nishitshah1/Library/Developer/Xcode/DerivedData/WebDriverAgent-brdadhpuduowllgivnnvuygpwhzy/Build/Products/Debug-iphonesimulator/IntegrationApp.app");
 	   
-		driver = new RemoteWebDriver(new URL("http://127.0.0.1:4723/wd/hub"), capabilities);
+		driver = new RemoteWebDriver(new URL("http://127.0.0.1:4444/wd/hub"), capabilities);
 			 
 		
 		   

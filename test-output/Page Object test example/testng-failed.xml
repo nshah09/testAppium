@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Page Object test example]">
+  <test name="sample test(failed)">
+    <classes>
+      <class name="sampleAppium.testAppium.tests.alertsTest">
+        <methods>
+          <include name="verifyHomePage"/>
+          <include name="initializeTestBase"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- sampleAppium.testAppium.tests.alertsTest -->
+    </classes>
+  </test> <!-- sample test(failed) -->
+</suite> <!-- Failed suite [Page Object test example] -->
